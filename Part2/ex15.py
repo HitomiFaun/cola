@@ -1,4 +1,4 @@
 import random
 flowers = ['rose', 'tulip', 'lily']
-print('rose')
-print(94)
+print(random.choice(flowers))
+print(random.randint(0,100))
