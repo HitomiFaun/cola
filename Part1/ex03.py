@@ -1,8 +1,10 @@
 string1 = 'MaRvin THE b0t'
-string_lower = 'lowercase_string1()'
-string_upper = 'uppercase_string1()'
-string_nospace = 'nospace_string1()'
+string_lower = string1.lower()
+string_upper = string1.upper()
+string_nospace = string1.replace(' ', ' ')
 print(string1)
 print(string_lower)
 print(string_upper)
 print(string_nospace)
+
+
